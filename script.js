@@ -38,7 +38,7 @@ function switchTheme(event) {
     localStorage.setItem('theme', 'dark');
     darkMode();
   } else {
-    document.documentElement.setAttribute('data-theme', 'light');
+    document.documentElement.setAttribute('data-theme', null);
     localStorage.setItem('theme', 'light');
     lightMode();
   }
